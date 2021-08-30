@@ -12,4 +12,4 @@ A c programm written in c, wich allows you to calculate different formels and sh
 - Start the a.out file with terminal
 - Finish
 
-If you wan't to cancle the programm just press ctrl+c
+If you want to cancle the programm just press ctrl+c
