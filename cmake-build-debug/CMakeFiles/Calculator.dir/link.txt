@@ -1,0 +1,3 @@
+C:\Users\felix\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Calculator.dir/objects.a
+C:\Users\felix\Documents\winbuild\bin\ar.exe cr CMakeFiles\Calculator.dir/objects.a @CMakeFiles\Calculator.dir\objects1.rsp
+C:\Users\felix\Documents\winbuild\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Calculator.dir/objects.a -Wl,--no-whole-archive -o Calculator.exe -Wl,--out-implib,libCalculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Calculator.dir\linklibs.rsp
