@@ -5,11 +5,9 @@ A c programm written in c, wich allows you to calculate different formels and sh
 
 **Installation:**
 
-- Download the whole .zip package
+- Download the .exe file
+- execute it. Done!
 
-- unzip the file
-- compile the main.c file with a compiler of your choise (My choise for Linux Systems: gcc)
-- Start the a.out file with terminal
-- Finish
+- For learning how I porgrammed it: download the main.c and open it with an editor of your choise!
 
-If you want to cancle the programm just press ctrl+c
+~Rotstein
