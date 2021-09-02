@@ -8,13 +8,20 @@ void credits();
 void start();
 
 int main() {
+
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
     info();
 
     return 0;
 }
 
 void help() {
+
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
     int eingabe = 0;
+
     printf("Commands:\n"
            "- (1) -> help | Opens this field\n"
            "- (2) -> info | Infos about this application\n"
@@ -24,7 +31,6 @@ void help() {
            "Please select an Option:\n");
 
     scanf("%d", &eingabe);
-
     switch (eingabe) {
         case 1: help(); break;
         case 2: info(); break;
@@ -38,6 +44,8 @@ void help() {
 
 void info () {
 
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
     int eingabe = 0;
 
     printf("This App was programmed to learn something about C\n"
@@ -46,6 +54,7 @@ void info () {
            "this application soonTM :-D\n\n"
            "Main Menu? (0)\n"
            "For help: Press (1)\n\n");
+
     scanf("%d", &eingabe);
     switch (eingabe) {
         case 1: help(); break;
@@ -54,9 +63,40 @@ void info () {
 }
 
 void credits() {
-    printf("");
+
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
+    int eingabe = 0;
+
+    printf("The Calculator Program is made by Rotstein007\n"
+           "GitHub: https://github.com/Rotstein007\n\n"
+           ""
+           "Main Menu? (0)\n"
+            "For help: Press (1)\n\n");
+
+    scanf("%d", &eingabe);
+    switch (eingabe) {
+        case 1: help(); break;
+        case 0: main(); break;
+    }
 }
 
 void start() {
 
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
+    int eingabe = 0;
+
+    printf("-\n"
+           "-\n"
+           "-\n"
+           "-\n\n"
+           "Main Menu? (0)\n"
+           "For help: Press (1)\n\n");
+
+    scanf("%d", &eingabe);
+    switch (eingabe) {
+        case 1: help(); break;
+        case 0: main(); break;
+    }
 }
