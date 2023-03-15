@@ -1,5 +1,5 @@
 # Calculator
-A programm written in c, wich allows you to calculate different formels and shows you the solution
+An application written in c, wich allows you to calculate different formels and shows you the solution
 
 
 
